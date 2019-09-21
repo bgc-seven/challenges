@@ -60,6 +60,7 @@ Ok next lets change our draw function
 
 ```
 function draw() {
+			ctx.clearRect(0,0,canvas.width,canvas.height)
 			ctx.drawImage(hero, 0, 0, 16,16, 100,100,32,32) // left
 
 			ctx.translate(canvas.width, 0);
