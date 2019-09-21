@@ -5,6 +5,7 @@ Did you know that you can actually _draw_ on the web?
 1. Copy this to your website:
 
 ```
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +25,7 @@ Did you know that you can actually _draw_ on the web?
 			width: 600px;
 			height: 400px;
 			margin: 0px;
-			background-color: black;
+			background-color: lightblue;
 		}
 	</style>
 </head>
@@ -36,8 +37,11 @@ Did you know that you can actually _draw_ on the web?
 		console.log('canvas: ', ctx)
 		ctx.fillStyle = 'green'
 		ctx.fillRect(150,150,100,100,100,100)
+		ctx.arc(60, 65, 5, 0, Math.PI * 2, true)
+		ctx.arc(100, 100, 5, 0, Math.PI * 2, true)
 	</script>
 </body>
 </html>
+
 
 ```
