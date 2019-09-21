@@ -69,5 +69,5 @@ function draw() {
 			ctx.drawImage(hero, 0, 32, 16,16, 140,140,32,32) // down
 
 			ctx.drawImage(hero, 0, 16, 16,16, 30,30,32,32) //up
-		}
-    ```
+		}    
+```
