@@ -36,7 +36,6 @@ Did you know that you can actually _draw_ on the web?
 		console.log('canvas: ', ctx)
 		ctx.fillStyle = 'green'
 		ctx.fillRect(150,150,100,100,100,100)
-		ctx.arc(60, 65, 5, 0, Math.PI * 2, true)
 	</script>
 </body>
 </html>
