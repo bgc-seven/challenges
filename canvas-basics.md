@@ -34,7 +34,6 @@ Did you know that you can actually _draw_ on the web?
 	<script>
 		const canvas = document.getElementById('canvas')
 		const ctx = canvas.getContext('2d')
-		console.log('canvas: ', ctx)
 		ctx.fillStyle = 'green'
 		ctx.fillRect(150,150,100,100,100,100)
 	</script>
