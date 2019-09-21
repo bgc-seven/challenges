@@ -11,20 +11,13 @@ body {
 ```
 
 Let's take a look at the result....wait a minute why are my elements side by side. By default flexbox aligns elements side by side instead of one on top of the other.
-Let's change that.
 
-Under ```display: flex``` Add the following line of code
-
-```
-flex-flow: column nowrap;
-```
-
-Ok so now we're back where we started.
-
+Ok so how can we get back to where we started and then center the elements
 ## Challenge
 
-- First take a look at the property [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/)
-  Also take a look at [align-items](https://css-tricks.com/almanac/properties/a/align-items/)
+- First let's take a look at the properties [flex-direction](https://css-tricks.com/almanac/properties/f/flex-direction/)  a [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/), and 
+[align-items](https://css-tricks.com/almanac/properties/a/align-items/)
   
-1. Center the items on your webpage
-2. Play around with the different properties justify-content and align-items
+1. Get your elements to not be side by side
+2. Center the items on your webpage
+3. Play around with the different properties justify-content and align-items
