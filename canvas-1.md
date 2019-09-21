@@ -37,11 +37,43 @@ Did you know that you can actually _draw_ on the web?
 		console.log('canvas: ', ctx)
 		ctx.fillStyle = 'green'
 		ctx.fillRect(150,150,100,100,100,100)
-		ctx.arc(60, 65, 5, 0, Math.PI * 2, true)
-		ctx.arc(100, 100, 5, 0, Math.PI * 2, true)
 	</script>
 </body>
 </html>
 
 
+```
+
+
+2. Okay we've seen hown to draw a rectangle but how but something else. Lets draw a triangle.
+
+Before we used fillRect but now we will actually code each line ourselves. Place the following code under neath your fillRect command.
+
+```
+		ctx.beginPath()
+		ctx.moveTo(75, 50)
+		ctx.lineTo(100, 75)
+		ctx.lineTo(100, 25)
+		ctx.fill()
+		ctx.endPath()
+```
+
+As you can see we have a nice triangle. now above the ctx.beginPath let's add 2 lines of code.
+
+```
+ctx.strokeStyle = 'yellow'
+ctx.fillStyle = 'lightblue;
+```
+3. Alright one last thing. above the ```ctx.endPath()``` let's add the following code
+
+```
+ctx.moveTo(75,75)
+ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // Outer circle
+ctx.moveTo(110, 75);
+ctx.arc(75, 75, 35, 0, Math.PI, false);  // Mouth (clockwise)
+ctx.moveTo(65, 65);
+ctx.arc(60, 65, 5, 0, Math.PI * 2, true);  // Left eye
+ctx.moveTo(95, 65);
+ctx.arc(90, 65, 5, 0, Math.PI * 2, true);  // Right eye
+ctx.stroke();
 ```
