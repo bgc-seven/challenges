@@ -77,3 +77,5 @@ ctx.moveTo(95, 65);
 ctx.arc(90, 65, 5, 0, Math.PI * 2, true);  // Right eye
 ctx.stroke();
 ```
+
+4. Ok now that you've got the basics of html5's canvas element. Let's see what you can create on the canvas.
