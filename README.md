@@ -7,8 +7,10 @@ _(These challenges help you add more things to your web app using **HTML**.)_
 
 1. [Put your name on it](add-name.md)
 2. [Meow!]()
-3. [Drawing on the Web](canvas-basics.md)
-
+3. [My Blank Canvas](canvas-1.md)
+4. [More Angles in the Paint](canvas-2.md)
+5. [We're all Smiles](canvas-3.md)
+6. [The World is Your Canvas](canvas-4.md)
 
 ## What it LOOKS like
 _(These challenges help you make your web app look better through **CSS**.)_
