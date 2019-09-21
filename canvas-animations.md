@@ -77,7 +77,9 @@ function draw() {
  - Take a look at [movement with canvas](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls)
 
 
-1. Add an event listener to make your image move when you press the right arrow key.
+1. Add an event listener to change your image when you press the right arrow key.
 
 
+#### Hints 
+  - You have to change the destinaton X and destination Y coordinates to move across the screen.
 * If you get stuck flag someone down for help.
