@@ -71,3 +71,10 @@ function draw() {
 			ctx.drawImage(hero, 0, 16, 16,16, 30,30,32,32) //up
 		}    
 ```
+
+
+### Challenges
+ - Take a look at [movement with canvas](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls)
+
+
+1. Add an event listener to make your image move when you press the right arrow key.
