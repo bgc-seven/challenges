@@ -78,3 +78,6 @@ function draw() {
 
 
 1. Add an event listener to make your image move when you press the right arrow key.
+
+
+* If you get stuck flag someone down for help.
