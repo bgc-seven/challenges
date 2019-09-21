@@ -20,7 +20,6 @@ Include a smiley face in your masterpiece.
 ctx.fill()     // <== this is the last line of drawing a triangle... find this
 
 // Draw a smiley face
-ctx.moveTo(75,75)
 ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // Outer circle
 ctx.moveTo(110, 75);
 ctx.arc(75, 75, 35, 0, Math.PI, false);  // Mouth (clockwise)
