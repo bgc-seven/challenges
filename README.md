@@ -6,6 +6,8 @@ Choose from one of three ways you can make your web app better:
 _(These challenges help you add more things to your web app using **HTML**.)_
 
 1. [Put your name on it](add-name.md)
+2. [Meow!]()
+3. [Drawing on the Web](canvas-basics.md)
 
 
 ## What it LOOKS like
