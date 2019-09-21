@@ -16,6 +16,7 @@ _(These challenges help you add more things to your web app using **HTML**.)_
 _(These challenges help you make your web app look better through **CSS**.)_
 
 1. [I'll go with Pink and Black](change-colors.md)
+2. [Center your world](https://github.com/BGC-LA-Pivotal/challenges/blob/master/center-page-elements.md)
 
 
 ## What it DOES
